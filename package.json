@@ -1,0 +1,40 @@
+{
+  "name": "trivoh-js",
+  "version": "0.0.1-alpha",
+  "description": "Trivoh javascript client",
+  "main": "dist/index",
+  "types": "dist/index",
+  "private": true,
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest",
+    "build": "npm run lint && npm test && webpack --config webpack.config.js",
+    "version": "npm version patch"
+  },
+  "keywords": ["trivoh", "api"],
+  "author": "kingsonseang",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kingsonseang/trivoh-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kingsonseang/trivoh-js/issues"
+  },
+  "homepage": "https://github.com/kingsonseang/trivoh-js",
+  "devDependencies": {
+    "@eslint/js": "^9.4.0",
+    "@jest/globals": "^29.7.0",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.2",
+    "eslint": "^9.4.0",
+    "globals": "^15.4.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.4",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.13.0",
+    "webpack": "^5.92.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
