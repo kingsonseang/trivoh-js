@@ -140,6 +140,7 @@ function httpsRequest(
     });
 
     req.on("error", (e) => {
+      console.error(e);
       resolve({ statusCode: "401", answer: "an error occurred" });
     });
 
