@@ -12,7 +12,7 @@
   },
   "keywords": ["trivoh", "api"],
   "author": "kingsonseang",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kingsonseang/trivoh-js.git"

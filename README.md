@@ -10,7 +10,7 @@ npm install trivoh-js
 ### Usage
 
 ```javascript
-const trivoh = require("./dist/index");
+import * as trivoh from "trivoh-js"
 
 const CLIENT_ID = "X-API-KEY";
 

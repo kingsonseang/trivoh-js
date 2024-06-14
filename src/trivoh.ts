@@ -3,7 +3,7 @@
 "use strict";
 
 import * as https from "https";
-import * as crypto from "node:crypto";
+import * as crypto from "crypto";
 import {
   ENDPOINT,
   ERRORS,
